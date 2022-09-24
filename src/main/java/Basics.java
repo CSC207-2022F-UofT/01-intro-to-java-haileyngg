@@ -101,7 +101,7 @@ public class Basics {
          * Current count: 1
          * Current count: 0
          */
-        for (int i = 10; i > 0; i--) {
+        for (int i = 10; i >= 0; i--) {
             System.out.println("Current count: " + i);
         }
 
@@ -152,7 +152,7 @@ public class Basics {
         for (int i = 0; i < words.length; i++) {
             ret.append(words[i].charAt(0));
         }
-        
+
         return ret.toString();
     }
 
